@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="topster.lovetest" version="1.2.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="topster.lovetest" version="1.3.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Love Test: Wie gut passen wir zusammen?</name>
     <description>
         Teste und finde heraus, wie gut es tatsächlich mit deiner großen Liebe steht. Ist es wirklich dein perfekter Liebhaber oder deine perfekte Liebhaberin?
@@ -29,4 +29,6 @@
     <gap:plugin name="org.apache.cordova.inappbrowser" />
     <icon src="lovetest.png" />
     <access origin="*" />
+	<plugin name="cordova-plugin-whitelist" version="1" />
+	<allow-navigation href="http://www.topster.de/*" />
 </widget>
